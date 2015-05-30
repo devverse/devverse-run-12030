@@ -2,7 +2,7 @@
 .page-logo {
   	width: 120px !important;
 	margin-top: 20px !important;
-	height: 50px !important;
+	height: 30px !important;
 }
 
 .page-logo h2{
@@ -39,12 +39,12 @@
 }
 
 .productLeft {
-	width: 25%;
+	width: 35%;
 	margin-right: 10px;
 }
 
 .productRight {
-	width: 70%;
+	width: 60%;
 }
 
 .clear {
