@@ -9,10 +9,19 @@
     </div>  
 
     <div class="productRight">
-        <h6>{{p.name}}</h6>
-        <span class="price">{{p.retailer.name}}</span>
+        <span class="title">{{p.name}}</span>
         <br/>
-        <span class="price">{{p.priceLabel}}</span>
-        <a href="#" class="button-big-icon icon-setting button-green" style="width:90%;text-align:center" ng-click="buyProduct(p); $event.preventDefault(); $event.stopPropagation()">Details</a>
+        <span class="price">Price {{p.priceLabel}} 
+            <span ng-show="p.salePriceLabel != null">
+                - Sales Price {{p.salePriceLabel}}
+            </span>
+
+            <span ng-show="p.salePriceRangeLabel != null">
+                <br/> Sales Price Range: {{p.salePriceRangeLabel}}
+            </span>
+        </span>
+
+        <div class="clear"> </div>
+        <a href="#" class="button button-blue" ng-click="buyProduct(p); $event.preventDefault(); $event.stopPropagation()">Details</a>
     </div>
 </div>

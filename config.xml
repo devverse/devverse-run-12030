@@ -6,7 +6,7 @@
 	version 	= "3"
 	id        = "com.just.run.men">
 
-	<preference name="phonegap-version" value="2.9.0" />
+	<preference name="phonegap-version" value="3.7.0" />
 	<preference name="fullscreen" value="false" />
 
 	<name>Just Run! Men</name>

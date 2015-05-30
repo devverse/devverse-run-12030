@@ -12,12 +12,19 @@
 }
 
 .content-section h1 {
-    text-transform:capitalize;
+    text-transform: capitalize;
+}
+
+.title {
+	text-transform: capitalize;
 }
 
 .product {
 	overflow: hidden;
 	margin-bottom: 5px;
+	border: 2px #eee solid;
+	margin-bottom: 10px;
+	width: 98%;
 }
 
 .productLeft, .productRight {
@@ -25,13 +32,25 @@
 }
 
 .productLeft img {
-	max-height: 170px;
+	width: 70px;
+	height: 70px;
+	margin-top: 20px;
 }
 
 .productLeft {
-	width: 45%;
+	width: 25%;
+	margin-right: 10px;
 }
 
 .productRight {
-	width: 53%;
+	width: 70%;
+}
+
+.clear {
+	clear: both;
+}
+
+.productBtn {
+	width:50%;
+	text-align:center
 }
