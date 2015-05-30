@@ -9,15 +9,15 @@
 	<preference name="phonegap-version" value="3.7.0" />
 	<preference name="fullscreen" value="false" />
 
-	<name>Just Run! Men</name>
+	<name>Runner</name>
 
 	<description>
-		Just run mobile running sneaker store and shop for men. 
+		Runners. Running sneaker store 
 	</description>
 
 	<author href="devverse@gmail.com"
 		email="devverse@gmail.com">
-		Just Run
+		Runners
 	</author>
 
 	<gap:platforms>

@@ -52,7 +52,6 @@ function viewItemsController($scope, $rootScope, $routeParams, app_service)
 	};
 
 	$scope.completeSearch = function(search){
-
 		app_service.search(search).then(function (data) {
 			$scope.products = data;
 			$scope.setCache(search, data);
@@ -63,19 +62,24 @@ function viewItemsController($scope, $rootScope, $routeParams, app_service)
 	};
 
 	$scope.paginate = function(){
-        $("html, body").animate({ scrollTop: 0 }, 10);
         $scope.showLoading = true;
         $scope.page = $scope.page + 20;
         var post = "search=" + $scope.searchStr;
         post += "&offset=" + $scope.page;
 
         app_service.paginate(post).then(function (data) {
-            $scope.products = data;
-            $scope.showLoading = false;
+        	$scope.showLoading = false;
+            $scope.completePaginate(data);
         }, function (err) {
             window.console.log(err);
         });
     }
+
+    $scope.completePaginate = function(data) {
+    	for (var i = 0; i < data.length; i++) {
+			$scope.products.push(data[i]);
+		}
+    };
 
     $scope.init = (function ()
     {

@@ -25,3 +25,10 @@
         <a href="#" class="button button-blue" ng-click="buyProduct(p); $event.preventDefault(); $event.stopPropagation()">Details</a>
     </div>
 </div>
+
+<div ng-show="showLoading == true" style="text-align:center">
+    <img src="images/loader.gif" style="left:40%" />
+    <br/>
+</div>
+
+<a href="#" class="button button-blue" ng-click="paginate(); $event.preventDefault(); $event.stopPropagation()" style="width:98%">View More</a>

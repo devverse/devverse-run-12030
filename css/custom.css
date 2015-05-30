@@ -24,7 +24,8 @@
 	margin-bottom: 5px;
 	border: 2px #eee solid;
 	margin-bottom: 10px;
-	width: 98%;
+	width: 97%;
+	margin-left: 5px;
 }
 
 .productLeft, .productRight {
