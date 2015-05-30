@@ -1,10 +1,14 @@
 var url = window.location.href;
 
 if (url.indexOf("localhost") != -1) {
-	var serviceURL = "http://localhost/dev/devverse/public/watch/";
+	var serviceURL = "http://localhost/soleinsider/public/apps/running/";
 } else{
-	var serviceURL = "http://devverse.com/public/watch/";
+	var serviceURL = "http://soleinsider.com/public/apps/running/";
 }
 
-var app_name = "The Watch Shop";
-var page_title = "The Watch Shop";
+var appConfig = {};
+appConfig.base_url = serviceURL;
+appConfig.name = "Discount Running Shoes"
+appConfig.version = "2";
+appConfig.admin_url = 'app/'
+appConfig.serviceURL = serviceURL;

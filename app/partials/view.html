@@ -1,0 +1,18 @@
+<div class="content-section">
+    <h1 class="left-text">{{title}}</h1>
+    <div class="overlay"></div>
+    <img class="responsive-image" src="images/0w.jpg" alt="img">
+</div>
+<div class="portfolio-item-full-width product" ng-repeat="p in products">
+    <div class="productLeft">
+    <img src="{{p.image.sizes.IPhone.url}}" alt="{{p.name}}" style="width:97%;text-align:center">
+    </div>  
+
+    <div class="productRight">
+        <h6>{{p.name}}</h6>
+        <span class="price">{{p.retailer.name}}</span>
+        <br/>
+        <span class="price">{{p.priceLabel}}</span>
+        <a href="#" class="button-big-icon icon-setting button-green" style="width:90%;text-align:center" ng-click="buyProduct(p); $event.preventDefault(); $event.stopPropagation()">Details</a>
+    </div>
+</div>

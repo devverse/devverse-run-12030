@@ -1,6 +1,6 @@
-app.factory('app_service', ['$rootScope', '$q', '$http', function($rootScope, $q, $http) {
+mobileApp.factory('app_service', ['$rootScope', '$q', '$http', function($rootScope, $q, $http) {
 
-	var api = serviceURL;
+	var api = appConfig.serviceURL;
 
 	self.makePost = function (endpoint, post) {
 

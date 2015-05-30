@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+.page-logo {
+  	width: 120px !important;
+	margin-top: 20px !important;
+	height: 50px !important;
+}
+
+.page-logo h2{
+	color: white;
+	font-family: 'Pacifico', cursive;
+	font-size: 24px !important;
+}
+
+.content-section h1 {
+    text-transform:capitalize;
+}
+
+.product {
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.productLeft, .productRight {
+	float: left;
+}
+
+.productLeft img {
+	max-height: 170px;
+}
+
+.productLeft {
+	width: 45%;
+}
+
+.productRight {
+	width: 53%;
+}
