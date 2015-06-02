@@ -8,7 +8,7 @@ if (url.indexOf("localhost") != -1) {
 
 var appConfig = {};
 appConfig.base_url = serviceURL;
-appConfig.name = "Discount Running Shoes"
+appConfig.name = "Runners"
 appConfig.version = "2";
 appConfig.admin_url = 'app/'
 appConfig.serviceURL = serviceURL;

@@ -34,7 +34,4 @@
 
     <gap:splash src="splash.jpg" />
 	<feature name="http://api.phonegap.com/1.0/network"/>
-
-	 <preference name="exit-on-suspend" value="false" />
-
 </widget>
