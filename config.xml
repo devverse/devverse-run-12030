@@ -2,22 +2,22 @@
 
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	versionCode="2"
-	version 	= "2"
-	id        = "com.just.run.men">
+	versionCode="1"
+	version 	= "1"
+	id        = "com.running.sneakers">
 
 	<preference name="phonegap-version" value="3.7.0" />
 	<preference name="fullscreen" value="false" />
 
-	<name>Runner</name>
+	<name>Running Sneakers</name>
 
 	<description>
-		Runners. Running sneaker store 
+		Running Sneakers. Running sneaker store 
 	</description>
 
 	<author href="devverse@gmail.com"
 		email="devverse@gmail.com">
-		Runners
+		Running Sneakers
 	</author>
 
 	<gap:platforms>
