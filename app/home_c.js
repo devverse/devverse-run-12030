@@ -36,6 +36,7 @@ function homeController($scope, $rootScope, app_service)
 
     $scope.init = (function ()
     {
+    	window.removeBannerAd();
     	$scope.getMenu();
     })();
 }

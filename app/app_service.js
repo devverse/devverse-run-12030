@@ -30,8 +30,6 @@ mobileApp.factory('app_service', ['$rootScope', '$q', '$http', function($rootSco
     };
 
      self.search = function(search){
-
-
         var post = "search=" + search;
         return self.makePost('search',post);
     };

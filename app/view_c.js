@@ -83,6 +83,7 @@ function viewItemsController($scope, $rootScope, $routeParams, app_service)
 
     $scope.init = (function ()
     {
+    	window.showBannerAd();
 		var searchTerm = $routeParams.search;
 		$scope.search(searchTerm);
 		$scope.title = searchTerm;
